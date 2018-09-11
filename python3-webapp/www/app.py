@@ -275,7 +275,7 @@ def init(loop):
     logging.info('server before...')
 
     # 创建1个服务器对象
-    host ='172.17.73.32'  # 或 'localhost' == '127.0.0.1'
+    host ='127.0.0.1'  # 或 'localhost' == '127.0.0.1'
     port = 22
     server = yield from loop.create_server(app.make_handler(),host,port)
     logging.info('server start at http://%s:%s' % (host,port))
