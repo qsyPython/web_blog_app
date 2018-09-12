@@ -9,7 +9,7 @@ configs = {
         'host':'www.baidu.com',
         'port':3306,
         'user':'root',
-        'password':'Python@123',
+        'password':'qsy112933',
         'db':'awesome'
     },
     'session': {

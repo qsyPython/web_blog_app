@@ -5,6 +5,7 @@
 
 configs = {
     'db':{
-        'host':'127.0.0.1' # 修正host
+        'host':'127.0.0.1', # 修正host
+        'password':'Python@123'# 修正为阿里云服务器mysql密码
     }
 }
