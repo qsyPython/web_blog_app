@@ -1,2 +1,2 @@
 # web_blog_app
-这是一个使用python实现的web blog
+这是一个使用python实现的web 博客
